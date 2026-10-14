@@ -3,6 +3,7 @@ extends Node
 
 
 signal game_finished
+signal game_restarted
 signal _arm_hidden
 
 enum Finger{
@@ -62,6 +63,7 @@ var _pinky_counter: int = 0:
 func _ready() -> void:
 	alima_texture_rect.offset_transform_position_ratio = Vector2(0, 1)
 	game_end.hide()
+	play_again_button.hide()
 
 
 func show_arm() -> void:
@@ -167,7 +169,6 @@ func _end_game():
 	await win_sfx_player.finished
 	win_sfx_player.stream = WIN_MUSIC
 	win_sfx_player.play()
-	await win_sfx_player.finished
 	play_again_button.show()
 
 
@@ -176,6 +177,7 @@ func _on_play_again_pressed() -> void:
 	show_arm()
 	game_end.hide()
 	play_again_button.hide()
+	game_restarted.emit()
 	win_sfx_player.stream = YOU_WIN_AUDIO
 
 

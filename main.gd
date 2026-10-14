@@ -86,7 +86,7 @@ func _on_button_mouse_exited(button: Button) -> void:
 
 
 func _on_gameplay_game_finished() -> void:
-	music_player.stop()
+	music_player.stream_paused = true
 
 
 func _save_config() -> void:
@@ -126,3 +126,7 @@ func _update_leaderboard_entries() -> void:
 		leaderboard_entry_container.add_child(leaderboard_entry)
 		leaderboard_entry.entry_name = entry[0]
 		leaderboard_entry.entry_time = entry[1]
+
+
+func _on_gameplay_game_restarted() -> void:
+	music_player.stream_paused = false
