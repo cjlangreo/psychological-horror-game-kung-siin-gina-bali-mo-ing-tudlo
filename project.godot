@@ -13,6 +13,7 @@ config_version=5
 config/name="Psychological Horror Game Kung Siin Gina Bali Mo Ing Tudlo"
 run/main_scene="uid://ys215x3qetue"
 config/features=PackedStringArray("4.8", "Forward Plus")
+boot_splash/show_image=false
 config/icon="res://icon.svg"
 
 [display]

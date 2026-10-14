@@ -61,8 +61,8 @@ stream_0/stream = ExtResource("5_2cqfq")
 default_font_size = 100
 VBoxContainer/constants/separation = 70
 
-[sub_resource type="Theme" id="Theme_ok6jj"]
-default_font_size = 152
+[sub_resource type="Theme" id="Theme_h8e4i"]
+default_font_size = 111
 
 [node name="Main" type="Node" unique_id=11926395]
 script = ExtResource("1_ig7tw")
@@ -322,21 +322,23 @@ grow_horizontal = 2
 grow_vertical = 2
 offset_transform_enabled = true
 offset_transform_visual_only = false
-theme = SubResource("Theme_ok6jj")
 theme_override_constants/separation = 181
 
 [node name="Label" type="Label" parent="SubViewportContainer/SubViewport/Leaderboard" unique_id=1169904862]
 layout_mode = 2
+theme_override_font_sizes/font_size = 164
 text = "Leaderboard"
 horizontal_alignment = 1
 
 [node name="ScrollContainer" type="ScrollContainer" parent="SubViewportContainer/SubViewport/Leaderboard" unique_id=328699028]
 layout_mode = 2
 size_flags_vertical = 3
+theme = SubResource("Theme_h8e4i")
 
 [node name="LeaderboardEntryContainer" type="VBoxContainer" parent="SubViewportContainer/SubViewport/Leaderboard/ScrollContainer" unique_id=1363932481]
 unique_name_in_owner = true
 layout_mode = 2
+size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="LeaderboardEntry" parent="SubViewportContainer/SubViewport/Leaderboard/ScrollContainer/LeaderboardEntryContainer" unique_id=287634331 instance=ExtResource("41_4lmeg")]
@@ -366,7 +368,9 @@ layout_mode = 2
 [node name="Back" type="Button" parent="SubViewportContainer/SubViewport/Leaderboard" unique_id=122401612]
 layout_mode = 2
 mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 144
 text = "Back"
+flat = true
 
 [connection signal="game_finished" from="SubViewportContainer/SubViewport/Gameplay" to="." method="_on_gameplay_game_finished"]
 [connection signal="game_restarted" from="SubViewportContainer/SubViewport/Gameplay" to="." method="_on_gameplay_game_restarted"]
