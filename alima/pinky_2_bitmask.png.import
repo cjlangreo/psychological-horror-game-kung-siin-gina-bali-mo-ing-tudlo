@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://1gloxjot4hyu"
+path="res://.godot/imported/pinky_2_bitmask.png-8ec1e9ec615e60cc37b18846885ceabb.res"
+
+[deps]
+
+source_file="res://alima/pinky_2_bitmask.png"
+dest_files=["res://.godot/imported/pinky_2_bitmask.png-8ec1e9ec615e60cc37b18846885ceabb.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

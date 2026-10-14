@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cwrmexj4phsty"
+path="res://.godot/imported/Aylex - A Positive Direction (freetouse.com).mp3-e7b8536010748c32580d534e166e2d2f.mp3str"
+
+[deps]
+
+source_file="res://music/Aylex - A Positive Direction (freetouse.com).mp3"
+dest_files=["res://.godot/imported/Aylex - A Positive Direction (freetouse.com).mp3-e7b8536010748c32580d534e166e2d2f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://tey6hovh3bc4"
+path="res://.godot/imported/ring_1_bitmask.png-b244a7c1490d43da8a7e936cb5b5110e.res"
+
+[deps]
+
+source_file="res://alima/ring_1_bitmask.png"
+dest_files=["res://.godot/imported/ring_1_bitmask.png-b244a7c1490d43da8a7e936cb5b5110e.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

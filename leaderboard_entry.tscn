@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://btjwpkidd8h44"]
+
+[ext_resource type="Script" uid="uid://roqr5w80sbjf" path="res://leaderboard_entry.gd" id="1_rqmqv"]
+
+[node name="LeaderboardEntry" type="HBoxContainer" unique_id=287634331]
+script = ExtResource("1_rqmqv")
+
+[node name="EntryName" type="Label" parent="." unique_id=506162208]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Marc"
+
+[node name="EntryTime" type="Label" parent="." unique_id=1275293806]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "00:00:00"
+horizontal_alignment = 2

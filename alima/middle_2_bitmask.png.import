@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://dqs23b5jh6y8p"
+path="res://.godot/imported/middle_2_bitmask.png-3b16e7087d97f26af34dd4c19be96bb6.res"
+
+[deps]
+
+source_file="res://alima/middle_2_bitmask.png"
+dest_files=["res://.godot/imported/middle_2_bitmask.png-3b16e7087d97f26af34dd4c19be96bb6.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

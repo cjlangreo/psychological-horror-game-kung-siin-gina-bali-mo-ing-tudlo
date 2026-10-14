@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c66gw3acex1t6"
+path="res://.godot/imported/AgusAlvarez - Funk It Up (freetouse.com).mp3-9dec1aa8ef647497b5c69c85231e5ac8.mp3str"
+
+[deps]
+
+source_file="res://music/AgusAlvarez - Funk It Up (freetouse.com).mp3"
+dest_files=["res://.godot/imported/AgusAlvarez - Funk It Up (freetouse.com).mp3-9dec1aa8ef647497b5c69c85231e5ac8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

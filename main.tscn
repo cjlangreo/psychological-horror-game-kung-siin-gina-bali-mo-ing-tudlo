@@ -1,0 +1,374 @@
+[gd_scene format=3 uid="uid://ys215x3qetue"]
+
+[ext_resource type="Script" uid="uid://c4py75aqowcbn" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="AudioStream" uid="uid://c66gw3acex1t6" path="res://music/AgusAlvarez - Funk It Up (freetouse.com).mp3" id="2_b1qrp"]
+[ext_resource type="AudioStream" uid="uid://cwrmexj4phsty" path="res://music/Aylex - A Positive Direction (freetouse.com).mp3" id="3_come4"]
+[ext_resource type="PackedScene" uid="uid://dw2umes38chfj" path="res://gameplay.tscn" id="3_h2yge"]
+[ext_resource type="Texture2D" uid="uid://bjg7q3n8inqf5" path="res://alima/alima.png" id="4_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://bkbal4v5wdudf" path="res://background.jpg" id="4_4c57u"]
+[ext_resource type="AudioStream" uid="uid://su2lyfw4y30f" path="res://gore.mp3" id="5_2cqfq"]
+[ext_resource type="Texture2D" uid="uid://dxsbu175tq7em" path="res://alima/thumb_1.png" id="5_7mycd"]
+[ext_resource type="Texture2D" uid="uid://uoho8ue33hhk" path="res://alima/thumb_2.png" id="5_82xsv"]
+[ext_resource type="Texture2D" uid="uid://dgs0gv3r1p1f4" path="res://alima/index_1.png" id="6_272bh"]
+[ext_resource type="Texture2D" uid="uid://6h0jh7yca7gy" path="res://alima/thumb_3.png" id="6_getpj"]
+[ext_resource type="BitMap" uid="uid://cghmuooyansl7" path="res://alima/thumb_1_bitmask.png" id="7_efxa6"]
+[ext_resource type="Texture2D" uid="uid://nrn0jjx0dmv2" path="res://alima/middle_1.png" id="7_kek77"]
+[ext_resource type="BitMap" uid="uid://gv8phuqqycfw" path="res://alima/thumb_2_bitmask.png" id="7_ryguw"]
+[ext_resource type="BitMap" uid="uid://bcqb01dxugp5g" path="res://alima/index_1_bitmask.png" id="7_vivmo"]
+[ext_resource type="Texture2D" uid="uid://8nnkg2hqdk3k" path="res://alima/pinky_1.png" id="8_4c57u"]
+[ext_resource type="BitMap" uid="uid://dqkbrnh04gjdw" path="res://alima/thumb_3_bitmask.png" id="8_d13ii"]
+[ext_resource type="BitMap" uid="uid://crx8jfmd1rxg3" path="res://alima/middle_1_bitmask.png" id="9_2cqfq"]
+[ext_resource type="Texture2D" uid="uid://drx6rd4xewhn6" path="res://alima/ring_1.png" id="9_efxa6"]
+[ext_resource type="Texture2D" uid="uid://v21mb0qp0l4i" path="res://alima/index_2.png" id="9_ok6jj"]
+[ext_resource type="Texture2D" uid="uid://baubno5jj5kwk" path="res://alima/index_3.png" id="10_facbu"]
+[ext_resource type="BitMap" uid="uid://m0sifauf2rb4" path="res://alima/index_2_bitmask.png" id="11_b1qrp"]
+[ext_resource type="BitMap" uid="uid://tey6hovh3bc4" path="res://alima/ring_1_bitmask.png" id="11_yaehf"]
+[ext_resource type="BitMap" uid="uid://nnl3vstglsaq" path="res://alima/index_3_bitmask.png" id="12_come4"]
+[ext_resource type="BitMap" uid="uid://d1ig2u3vtlwv7" path="res://alima/pinky_1_bitmask.png" id="12_dg77c"]
+[ext_resource type="Texture2D" uid="uid://tugmxevg0t42" path="res://alima/middle_2.png" id="13_h8e4i"]
+[ext_resource type="Texture2D" uid="uid://tsme6tcvd62n" path="res://alima/middle_3.png" id="14_4lmeg"]
+[ext_resource type="BitMap" uid="uid://dqs23b5jh6y8p" path="res://alima/middle_2_bitmask.png" id="15_0cp0l"]
+[ext_resource type="BitMap" uid="uid://3iweav7arscb" path="res://alima/middle_3_bitmask.png" id="16_d2t1y"]
+[ext_resource type="Texture2D" uid="uid://bbb07dorylacc" path="res://alima/ring_2.png" id="17_gngh3"]
+[ext_resource type="Texture2D" uid="uid://dn1ivd3nwlrx" path="res://alima/ring_3.png" id="18_0n3wm"]
+[ext_resource type="BitMap" uid="uid://2luwjhldbqiy" path="res://alima/ring_2_bitmask.png" id="19_qnost"]
+[ext_resource type="BitMap" uid="uid://du6do0k10kfcv" path="res://alima/ring_3_bitmask.png" id="20_wnkbs"]
+[ext_resource type="Texture2D" uid="uid://cy23ioqp0amsh" path="res://alima/pinky_2.png" id="21_f6a44"]
+[ext_resource type="Texture2D" uid="uid://b8tv2d1ep0vb0" path="res://alima/pinky_3.png" id="22_0cbny"]
+[ext_resource type="BitMap" uid="uid://1gloxjot4hyu" path="res://alima/pinky_2_bitmask.png" id="23_hrvbo"]
+[ext_resource type="BitMap" uid="uid://dauj41oo4cu14" path="res://alima/pinky_3_bitmask.png" id="24_uypp3"]
+[ext_resource type="Shader" uid="uid://cpgb5g42n6h1m" path="res://overlay_shader.gdshader" id="37_facbu"]
+[ext_resource type="Texture2D" uid="uid://glpy1sndan2n" path="res://partying_face.png" id="39_come4"]
+[ext_resource type="AudioStream" uid="uid://c1sfci8xghhdc" path="res://you_win.mp3" id="40_h8e4i"]
+[ext_resource type="PackedScene" uid="uid://btjwpkidd8h44" path="res://leaderboard_entry.tscn" id="41_4lmeg"]
+
+[sub_resource type="AudioStreamPlaylist" id="AudioStreamPlaylist_whpdh"]
+stream_count = 2
+stream_0 = ExtResource("2_b1qrp")
+stream_1 = ExtResource("3_come4")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_b1qrp"]
+shader = ExtResource("37_facbu")
+shader_parameter/y_res = 440
+shader_parameter/fisheye = 0.1
+shader_parameter/color_depth = 7.5
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_vivmo"]
+random_pitch = 1.4983071
+random_volume_offset_db = 3.0
+streams_count = 1
+stream_0/stream = ExtResource("5_2cqfq")
+
+[sub_resource type="Theme" id="Theme_06t4h"]
+default_font_size = 100
+VBoxContainer/constants/separation = 70
+
+[sub_resource type="Theme" id="Theme_ok6jj"]
+default_font_size = 152
+
+[node name="Main" type="Node" unique_id=11926395]
+script = ExtResource("1_ig7tw")
+
+[node name="Music" type="AudioStreamPlayer" parent="." unique_id=77776406]
+unique_name_in_owner = true
+stream = SubResource("AudioStreamPlaylist_whpdh")
+autoplay = true
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="." unique_id=419577424]
+material = SubResource("ShaderMaterial_b1qrp")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch = true
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer" unique_id=1990606474]
+handle_input_locally = false
+size = Vector2i(1080, 1920)
+render_target_update_mode = 4
+
+[node name="Background" type="TextureRect" parent="SubViewportContainer/SubViewport" unique_id=1837940112]
+unique_name_in_owner = true
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_4c57u")
+
+[node name="Gameplay" parent="SubViewportContainer/SubViewport" unique_id=770316418 instance=ExtResource("3_h2yge")]
+unique_name_in_owner = true
+thumb_textures = Array[Texture2D]([ExtResource("5_7mycd"), ExtResource("5_82xsv"), ExtResource("6_getpj")])
+thumb_bitmap_textures = Array[BitMap]([ExtResource("7_efxa6"), ExtResource("7_ryguw"), ExtResource("8_d13ii")])
+index_textures = Array[Texture2D]([ExtResource("6_272bh"), ExtResource("9_ok6jj"), ExtResource("10_facbu")])
+index_bitmap_textures = Array[BitMap]([ExtResource("7_vivmo"), ExtResource("11_b1qrp"), ExtResource("12_come4")])
+middle_textures = Array[Texture2D]([ExtResource("7_kek77"), ExtResource("13_h8e4i"), ExtResource("14_4lmeg")])
+middle_bitmap_textures = Array[BitMap]([ExtResource("9_2cqfq"), ExtResource("15_0cp0l"), ExtResource("16_d2t1y")])
+ring_textures = Array[Texture2D]([ExtResource("9_efxa6"), ExtResource("17_gngh3"), ExtResource("18_0n3wm")])
+ring_bitmap_textures = Array[BitMap]([ExtResource("11_yaehf"), ExtResource("19_qnost"), ExtResource("20_wnkbs")])
+pinky_textures = Array[Texture2D]([ExtResource("8_4c57u"), ExtResource("21_f6a44"), ExtResource("22_0cbny")])
+pinky_bitmap_textures = Array[BitMap]([ExtResource("12_dg77c"), ExtResource("23_hrvbo"), ExtResource("24_uypp3")])
+
+[node name="GoreSFXPlayer" type="AudioStreamPlayer" parent="SubViewportContainer/SubViewport/Gameplay" unique_id=798847223]
+unique_name_in_owner = true
+stream = SubResource("AudioStreamRandomizer_vivmo")
+volume_db = -10.0
+max_polyphony = 17
+
+[node name="Alima" type="TextureRect" parent="SubViewportContainer/SubViewport/Gameplay" unique_id=1248817347]
+unique_name_in_owner = true
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -540.0
+offset_top = -1797.0
+offset_right = 540.0
+grow_horizontal = 2
+grow_vertical = 0
+offset_transform_enabled = true
+offset_transform_visual_only = false
+texture = ExtResource("4_1bvp3")
+
+[node name="Index" type="TextureButton" parent="SubViewportContainer/SubViewport/Gameplay/Alima" unique_id=778766873]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("6_272bh")
+texture_click_mask = ExtResource("7_vivmo")
+
+[node name="Middle" type="TextureButton" parent="SubViewportContainer/SubViewport/Gameplay/Alima" unique_id=321703993]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("7_kek77")
+texture_click_mask = ExtResource("9_2cqfq")
+
+[node name="Ring" type="TextureButton" parent="SubViewportContainer/SubViewport/Gameplay/Alima" unique_id=1772392809]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("9_efxa6")
+texture_click_mask = ExtResource("11_yaehf")
+
+[node name="Thumb" type="TextureButton" parent="SubViewportContainer/SubViewport/Gameplay/Alima" unique_id=2040350670]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -540.0
+offset_top = -898.5
+offset_right = 540.0
+offset_bottom = 898.5
+grow_horizontal = 2
+grow_vertical = 2
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("5_7mycd")
+texture_click_mask = ExtResource("7_efxa6")
+
+[node name="Pinky" type="TextureButton" parent="SubViewportContainer/SubViewport/Gameplay/Alima" unique_id=791867554]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("8_4c57u")
+texture_click_mask = ExtResource("12_dg77c")
+
+[node name="GameEnd" type="VBoxContainer" parent="SubViewportContainer/SubViewport/Gameplay" unique_id=464742843]
+unique_name_in_owner = true
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -328.0277
+offset_top = -411.59082
+offset_right = 328.0277
+offset_bottom = 411.59082
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="SubViewportContainer/SubViewport/Gameplay/GameEnd" unique_id=1137391103]
+layout_mode = 2
+texture = ExtResource("39_come4")
+expand_mode = 5
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="SubViewportContainer/SubViewport/Gameplay/GameEnd" unique_id=1016841918]
+layout_mode = 2
+theme_override_font_sizes/font_size = 128
+text = "YOU WIN!"
+horizontal_alignment = 1
+
+[node name="TimeLabel" type="Label" parent="SubViewportContainer/SubViewport/Gameplay/GameEnd" unique_id=1175772001]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 129
+text = "00:00:00"
+horizontal_alignment = 1
+
+[node name="WinSFX" type="AudioStreamPlayer" parent="SubViewportContainer/SubViewport/Gameplay/GameEnd" unique_id=1309944703]
+unique_name_in_owner = true
+stream = ExtResource("40_h8e4i")
+
+[node name="PlayAgain" type="Button" parent="SubViewportContainer/SubViewport/Gameplay/GameEnd" unique_id=955886607]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 108
+text = "Play Again"
+flat = true
+
+[node name="MainMenu" type="Control" parent="SubViewportContainer/SubViewport" unique_id=1337195825]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+offset_transform_enabled = true
+offset_transform_visual_only = false
+theme = SubResource("Theme_06t4h")
+
+[node name="Label" type="Label" parent="SubViewportContainer/SubViewport/MainMenu" unique_id=1925712746]
+layout_mode = 0
+offset_right = 1080.0
+offset_bottom = 417.0
+text = "Psychological Horror Game Kung Siin Gina Bali Mo Ing Tudlo"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="SubViewportContainer/SubViewport/MainMenu" unique_id=2104704370]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -314.0
+offset_top = -72.5
+offset_right = 314.0
+offset_bottom = 72.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Play" type="Button" parent="SubViewportContainer/SubViewport/MainMenu/VBoxContainer" unique_id=1205197494]
+layout_mode = 2
+offset_transform_enabled = true
+mouse_default_cursor_shape = 2
+text = "Play"
+flat = true
+
+[node name="Leaderboard" type="Button" parent="SubViewportContainer/SubViewport/MainMenu/VBoxContainer" unique_id=1627336538]
+visible = false
+layout_mode = 2
+offset_transform_enabled = true
+mouse_default_cursor_shape = 2
+text = "Leaderboard"
+flat = true
+
+[node name="Quit" type="Button" parent="SubViewportContainer/SubViewport/MainMenu/VBoxContainer" unique_id=1351014128]
+visible = false
+layout_mode = 2
+mouse_default_cursor_shape = 2
+text = "QUIT"
+flat = true
+
+[node name="Leaderboard" type="VBoxContainer" parent="SubViewportContainer/SubViewport" unique_id=1189872490]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+offset_transform_enabled = true
+offset_transform_visual_only = false
+theme = SubResource("Theme_ok6jj")
+theme_override_constants/separation = 181
+
+[node name="Label" type="Label" parent="SubViewportContainer/SubViewport/Leaderboard" unique_id=1169904862]
+layout_mode = 2
+text = "Leaderboard"
+horizontal_alignment = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="SubViewportContainer/SubViewport/Leaderboard" unique_id=328699028]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="LeaderboardEntryContainer" type="VBoxContainer" parent="SubViewportContainer/SubViewport/Leaderboard/ScrollContainer" unique_id=1363932481]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="LeaderboardEntry" parent="SubViewportContainer/SubViewport/Leaderboard/ScrollContainer/LeaderboardEntryContainer" unique_id=287634331 instance=ExtResource("41_4lmeg")]
+layout_mode = 2
+
+[node name="LeaderboardEntry2" parent="SubViewportContainer/SubViewport/Leaderboard/ScrollContainer/LeaderboardEntryContainer" unique_id=108186056 instance=ExtResource("41_4lmeg")]
+layout_mode = 2
+
+[node name="LeaderboardEntry3" parent="SubViewportContainer/SubViewport/Leaderboard/ScrollContainer/LeaderboardEntryContainer" unique_id=1382456125 instance=ExtResource("41_4lmeg")]
+layout_mode = 2
+
+[node name="LeaderboardEntry4" parent="SubViewportContainer/SubViewport/Leaderboard/ScrollContainer/LeaderboardEntryContainer" unique_id=1930881067 instance=ExtResource("41_4lmeg")]
+layout_mode = 2
+
+[node name="LeaderboardEntry5" parent="SubViewportContainer/SubViewport/Leaderboard/ScrollContainer/LeaderboardEntryContainer" unique_id=151272660 instance=ExtResource("41_4lmeg")]
+layout_mode = 2
+
+[node name="LeaderboardEntry6" parent="SubViewportContainer/SubViewport/Leaderboard/ScrollContainer/LeaderboardEntryContainer" unique_id=1919441105 instance=ExtResource("41_4lmeg")]
+layout_mode = 2
+
+[node name="LeaderboardEntry7" parent="SubViewportContainer/SubViewport/Leaderboard/ScrollContainer/LeaderboardEntryContainer" unique_id=1602188879 instance=ExtResource("41_4lmeg")]
+layout_mode = 2
+
+[node name="LeaderboardEntry8" parent="SubViewportContainer/SubViewport/Leaderboard/ScrollContainer/LeaderboardEntryContainer" unique_id=1844566672 instance=ExtResource("41_4lmeg")]
+layout_mode = 2
+
+[node name="Back" type="Button" parent="SubViewportContainer/SubViewport/Leaderboard" unique_id=122401612]
+layout_mode = 2
+mouse_default_cursor_shape = 2
+text = "Back"
+
+[connection signal="game_finished" from="SubViewportContainer/SubViewport/Gameplay" to="." method="_on_gameplay_game_finished"]
+[connection signal="pressed" from="SubViewportContainer/SubViewport/Gameplay/Alima/Index" to="SubViewportContainer/SubViewport/Gameplay" method="_on_index_pressed"]
+[connection signal="pressed" from="SubViewportContainer/SubViewport/Gameplay/Alima/Middle" to="SubViewportContainer/SubViewport/Gameplay" method="_on_middle_pressed"]
+[connection signal="pressed" from="SubViewportContainer/SubViewport/Gameplay/Alima/Ring" to="SubViewportContainer/SubViewport/Gameplay" method="_on_ring_pressed"]
+[connection signal="pressed" from="SubViewportContainer/SubViewport/Gameplay/Alima/Thumb" to="SubViewportContainer/SubViewport/Gameplay" method="_on_thumb_pressed"]
+[connection signal="pressed" from="SubViewportContainer/SubViewport/Gameplay/Alima/Pinky" to="SubViewportContainer/SubViewport/Gameplay" method="_on_pinky_pressed"]
+[connection signal="pressed" from="SubViewportContainer/SubViewport/Gameplay/GameEnd/PlayAgain" to="SubViewportContainer/SubViewport/Gameplay" method="_on_play_again_pressed"]
+[connection signal="mouse_entered" from="SubViewportContainer/SubViewport/MainMenu/VBoxContainer/Play" to="." method="_on_button_mouse_entered" flags=18]
+[connection signal="mouse_exited" from="SubViewportContainer/SubViewport/MainMenu/VBoxContainer/Play" to="." method="_on_button_mouse_exited" flags=18]
+[connection signal="pressed" from="SubViewportContainer/SubViewport/MainMenu/VBoxContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="mouse_entered" from="SubViewportContainer/SubViewport/MainMenu/VBoxContainer/Leaderboard" to="." method="_on_button_mouse_entered" flags=18]
+[connection signal="mouse_exited" from="SubViewportContainer/SubViewport/MainMenu/VBoxContainer/Leaderboard" to="." method="_on_button_mouse_exited" flags=18]
+[connection signal="pressed" from="SubViewportContainer/SubViewport/MainMenu/VBoxContainer/Leaderboard" to="." method="_on_leaderboard_pressed"]
+[connection signal="pressed" from="SubViewportContainer/SubViewport/MainMenu/VBoxContainer/Quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="SubViewportContainer/SubViewport/Leaderboard/Back" to="." method="_on_back_pressed"]

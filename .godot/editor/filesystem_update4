@@ -1,0 +1,7 @@
+res://main.tscn
+res://gameplay.gd
+res://alima_shader.gdshader
+res://overlay_shader.gdshader
+res://main.gd
+res://leaderboard_entry.tscn
+res://leaderboard_entry.gd

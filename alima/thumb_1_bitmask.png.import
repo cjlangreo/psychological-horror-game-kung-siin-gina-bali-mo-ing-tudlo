@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://cghmuooyansl7"
+path="res://.godot/imported/thumb_1_bitmask.png-572c6bc202461dc3fba32bd8277192fe.res"
+
+[deps]
+
+source_file="res://alima/thumb_1_bitmask.png"
+dest_files=["res://.godot/imported/thumb_1_bitmask.png-572c6bc202461dc3fba32bd8277192fe.res"]
+
+[params]
+
+create_from=0
+threshold=0.5
