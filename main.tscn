@@ -314,7 +314,6 @@ flat = true
 
 [node name="Leaderboard" type="VBoxContainer" parent="SubViewportContainer/SubViewport" unique_id=1189872490]
 unique_name_in_owner = true
-visible = false
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
